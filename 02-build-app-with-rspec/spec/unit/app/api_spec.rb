@@ -14,7 +14,6 @@ module ExpenseTracker
     describe 'POST /expenses' do
       let(:expense) { { 'some' => 'data' } }
       context 'when the expense is successfully recorded' do
-        let(:expense) { { 'some' => 'data' } }
 
         before do
           allow(ledger).to receive(:record)
@@ -36,7 +35,6 @@ module ExpenseTracker
       end
 
       context 'when the expense fails validation' do
-        let(:expense) { { 'some' => 'data' } }
 
         before do
           allow(ledger).to receive(:record)
