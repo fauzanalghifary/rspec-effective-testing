@@ -22,3 +22,9 @@ rspec --tag last_run_status:failed
     - Acceptance Test
     - Integration Test
     - Unit Test
+
+- bundle exec rspec
+- bundle exec rspec --seed 32043
+- bundle exec rspec --bisect --seed 32043
+
+- grep config/sequel -r . --exclude-dir=.git
