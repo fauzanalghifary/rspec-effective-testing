@@ -28,3 +28,7 @@ rspec --tag last_run_status:failed
 - bundle exec rspec --bisect --seed 32043
 
 - grep config/sequel -r . --exclude-dir=.git
+
+## RSpec Core
+
+- rspec --tag fast
