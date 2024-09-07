@@ -32,3 +32,4 @@ rspec --tag last_run_status:failed
 ## RSpec Core
 
 - rspec --tag fast
+- rspec --tag ~fast
