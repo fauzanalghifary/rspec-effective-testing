@@ -33,3 +33,13 @@ rspec --tag last_run_status:failed
 
 - rspec --tag fast
 - rspec --tag ~fast
+- rspec --help
+- rspec -rbyebug
+
+- rspec path/to/a_spec.rb:37:87
+- rspec path/to/a_spec.rb[1:5,1:6]
+- rspec --only-failures
+- rspec --pattern spec/**/*_spec.rb
+- rspec --tag tag_name
+
+- rpsec --backtrace
