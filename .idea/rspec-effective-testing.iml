@@ -38,6 +38,7 @@
     <orderEntry type="library" scope="PROVIDED" name="sinatra (v4.0.0, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v2.0.4, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v2.4.0, asdf: 3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="timeout (v0.4.1, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="webrick (v1.8.1, asdf: 3.2.2) [gem]" level="application" />
   </component>
 </module>
